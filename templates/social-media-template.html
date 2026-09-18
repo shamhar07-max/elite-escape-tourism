@@ -1,0 +1,160 @@
+<!-- Master Social Media Template for Elite Escape Tourism -->
+<!-- Customize: data-theme, data-keyword, data-cta, data-hashtags -->
+<!DOCTYPE html>
+<html lang="en" data-theme="default">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elite Escape — Social Media Template</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Figtree:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #283B90;
+      --secondary: #53C9E0;
+      --accent: #FFD32A;
+      --text-dark: #1E293B;
+      --text-light: #F8FAFC;
+      --white: #FFFFFF;
+    }
+
+    * { font-family: 'Figtree', system-ui, -apple-system, sans-serif; }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', system-ui, -apple-system, sans-serif; }
+
+    /* Theme variants */
+    [data-theme="fall"] { --primary: #2C4A6E; --secondary: #FF6B6B; }
+    [data-theme="wellness"] { --primary: #63B3ED; --secondary: #FFD32A; --accent: #283B90; }
+    [data-theme="adventure"] { --primary: #EF4444; --secondary: #FBBF24; --accent: #283B90; }
+    [data-theme="tech"] { --primary: #0F172A; --secondary: #1E40AF; --accent: #FFD32A; }
+
+    .bg-gradient-primary { background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); }
+    .bg-gradient-accent { background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%); }
+    .btn-primary { background: var(--primary); color: var(--text-light); padding: 14px 32px; border-radius: 10px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-decoration: none; transition: all 0.2s ease; display: inline-block; margin: 8px 0; }
+    .btn-primary:hover { background: #3b4cab; transform: translateY(-2px); box-shadow: 0 10px 25px rgba(40,59,144,0.4); }
+    .card { background: rgba(255,255,255,0.85); backdrop-filter: blur(12px); border-radius: 20px; border: 1px rgba(255,255,255,0.3); }
+    .gold-text { color: var(--accent); }
+    .text-primary { color: var(--primary); }
+    .text-secondary { color: var(--secondary); }
+    .bg-pattern-navy { background-image: radial-gradient(circle at 30% 20%, rgba(40,59,144,0.03) 0%, transparent 50%), radial-gradient(circle at 70% 80%, rgba(83,201,224,0.03) 0%, transparent 50%); }
+  </style>
+</head>
+<body class="min-h-screen bg-white p-4 relative">
+
+  <!-- THEME INDICATOR (hidden on actual posts, used for design swatches) -->
+  <div class="fixed top-4 left-4 p-3 rounded-2xl opacity-0 hidden" data-theme-indicator></div>
+
+  <div class="bg-gradient-primary min-h-screen flex items-center justify-center p-4">
+    <div class="card max-w-2xl w-full p-8 text-center shadow-3xl animate-in fade-in">
+      <!-- HEADER: Keyword/Tag -->
+      <div class="mb-6">
+        <span class="text-xs uppercase tracking-wider" data-keyword-tag></span>
+      </div>
+
+      <!-- MAIN HEADLINE -->
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white mb-3" data-headline></h1>
+
+      <!-- SUBHEAD -->
+      <p class="text-lg text-white/90 mb-8 max-w-2xl mx-auto" data-subhead></p>
+
+      <!-- CTA BUTTON -->
+      <a href="#" class="btn-primary" data-cta-button>Learn More</a>
+
+      <!-- FOOTER: Hashtags & Context -->
+      <p class="text-sm mt-8 text-white/60" data-hashtags></p>
+    </div>
+  </div>
+
+  <!-- BOTTOM CONTEXT BAR -->
+  <div class="absolute bottom-0 left-0 right-0 p-4">
+    <div class="bg-white/90 backdrop-blur-md rounded-2xl max-w-3xl mx-4 p-4 shadow-lg">
+      <p class="text-sm text-gray-600 leading-relaxed" data-context></p>
+    </div>
+  </div>
+
+  <script>
+    // ============================================
+    // TEMPLATE DATA - CUSTOMIZE THESE VALUES
+    // ============================================
+    const templateData = {
+      // Theme: "fall" | "wellness" | "adventure" | "tech" | "default"
+      theme: "default",
+
+      // Keyword/post type tag (displayed as uppercase tag)
+      keyword: "fall getaway",
+
+      // Headline - main hook text
+      headline: "Escape the Ordinary",
+
+      // Subhead - supporting description
+      subhead: "Short escapes, big memories. ✈️ This fall, trade routine for adventure.",
+
+      // CTA button text
+      cta: "Find Fall Deals",
+
+      // Hashtags (comma-separated, will be formatted)
+      hashtags: "#EliteEscape,#Travel2026,#FallGetaway",
+
+      // Context/description bar text
+      context: "🍂 From $349 per night · 3-night minimum · Book by Oct 1 · Limited villas with fireplace views · Perfect for #loretripping this season"
+    };
+
+    // ============================================
+    // APPLY TEMPLATE
+    // ============================================
+
+    // Apply theme classes
+    const theme = templateData.theme;
+    const validThemes = ["default", "fall", "wellness", "adventure", "tech"];
+    if (validThemes.includes(theme)) {
+      document.querySelector('body').setAttribute('data-theme', theme);
+    }
+
+    // Apply theme indicator
+    const indicator = document.querySelector('[data-theme-indicator]');
+    if (indicator) {
+      indicator.className = `p-3 rounded-2xl ${theme}-bg/20 text-${theme}-300`;
+      indicator.textContent = `Theme: ${theme}`;
+    }
+
+    // Apply keyword tag
+    const keywordTag = document.querySelector('[data-keyword-tag]');
+    if (keywordTag) {
+      keywordTag.textContent = templateData.keyword.toUpperCase();
+      keywordTag.className = `inline-block px-2 py-1 text-xs font-medium rounded bg-${theme}-200 text-${theme}-400`;
+    }
+
+    // Apply headline
+    const headline = document.querySelector('[data-headline]');
+    if (headline) {
+      headline.textContent = templateData.headline;
+    }
+
+    // Apply subhead
+    const subhead = document.querySelector('[data-subhead]');
+    if (subhead) {
+      subhead.textContent = templateData.subhead;
+    }
+
+    // Apply CTA button
+    const ctaBtn = document.querySelector('[data-cta-button]');
+    if (ctaBtn) {
+      ctaBtn.textContent = templateData.cta;
+    }
+
+    // Apply hashtags
+    const hashtags = document.querySelector('[data-hashtags]');
+    if (hashtags) {
+      const tags = templateData.hashtags.split(',').map(t => t.trim()).filter(t => t.length > 0);
+      hashtags.innerHTML = tags.slice(0, 5).map(t => `<span class="inline-block px-2 py-1 text-xs font-medium rounded bg-primary/20 text-primary mr-1 mb-1">${t}</span>`).join('');
+    }
+
+    // Apply context
+    const context = document.querySelector('[data-context]');
+    if (context) {
+      context.textContent = templateData.context;
+    }
+  </script>
+</body>
+</html>

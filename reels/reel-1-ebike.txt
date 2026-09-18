@@ -1,0 +1,25 @@
+REEL #1: "E-Bike Adventure" — Vertical 1080×1920 — 20-25 seconds
+HOOK (0-3s): Fast-motion shot of rider on cliffside coastal trail, wind in hair, sunrise golden hour. Overlay text: "STOP Walking 🚶‍♀️ START Riding 🚲"
+MID (3-15s): 
+  • Clip 1: Rider on coastal trail, drone shot behind, waves crashing
+  • Clip 2: E-bike on forest path, sunlight through trees, POV handlebar view
+  • Clip 3: Rider at viewpoint, coffee in hand, landscape panorama
+  • Clip 4: Bike specs — 50km range, 25km/h assist, foldable for travel
+TEXT OVERLAYS (throughout): 
+  • "50km range · 25km/h · Foldable · Anywhere"
+  • "No license needed · All levels · Guided tours"
+CALL-TO-ACTION (15-20s): "🚲 Rent your adventure. Link in bio. #EliteEscape #EcoTravel #ElectricBike"
+CLOSING (20-25s): Brand logo + "EliteEscape.com · Your Journey, Your Rules" — navy/sky gold color scheme.
+
+PRODUCTION NOTES:
+- Music: Upbeat tropical house, 108bpm, licensed or Epidemic Sound free tier
+- Voiceover (optional): "Your journey, your rules. Elite Escape."
+- Transitions: Quick cuts, speed-ramping, natural wipe transitions (wave, tree branch)
+- Caption: "Coastal trails, zero emissions, 100% adventure. 🌊🚲 From $45/hr. Book now at EliteEscape.com. #Travel #EcoFriendly #AdventureAwaits"
+
+TECHNICAL SPECS:
+- Resolution: 1080×1920 px vertical
+- Duration: 20-25 seconds
+- Format: MP4, H.264, max 30MB
+- Text safe zone: Keep all text within central 80% (avoid top/bottom notches)
+- Brand colors: Navy #283B90 (primary), Sky Blue #53C9E0 (secondary), Gold #FFD32A (accent)
