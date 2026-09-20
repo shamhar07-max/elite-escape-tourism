@@ -1,0 +1,20 @@
+/* Self-hosted type system — replaces the fonts.googleapis.com/fonts.gstatic.com
+   round trip (DNS + TLS + 2 blocking requests) with same-origin files.
+   Figtree: variable font, weights 400-800, latin subset.
+   Fraunces: variable font, weights 600-900, optical size 9-144, latin subset. */
+@font-face{
+  font-family:"Figtree";
+  font-style:normal;
+  font-weight:400 800;
+  font-display:swap;
+  src:url("/elite-escape-tourism/assets/fonts/figtree-variable-latin.woff2") format("woff2-variations"),
+      url("/elite-escape-tourism/assets/fonts/figtree-variable-latin.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Fraunces";
+  font-style:normal;
+  font-weight:600 900;
+  font-display:swap;
+  src:url("/elite-escape-tourism/assets/fonts/fraunces-variable-latin.woff2") format("woff2-variations"),
+      url("/elite-escape-tourism/assets/fonts/fraunces-variable-latin.woff2") format("woff2");
+}

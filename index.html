@@ -16,14 +16,14 @@
 <meta property="og:image" content="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1200&auto=format&fit=crop">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@EliteEscapeTour">
-<link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg">
-<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
-<link rel="manifest" href="/manifest.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/svg+xml" href="/elite-escape-tourism/assets/brand/favicon.svg">
+<link rel="apple-touch-icon" href="/elite-escape-tourism/assets/brand/apple-touch-icon.png">
+<link rel="manifest" href="/elite-escape-tourism/manifest.webmanifest">
 <link rel="preconnect" href="https://images.unsplash.com">
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="/elite-escape-tourism/assets/fonts/figtree-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/elite-escape-tourism/assets/fonts/fraunces-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/elite-escape-tourism/assets/css/fonts.css">
+<link rel="stylesheet" href="/elite-escape-tourism/assets/css/main.css">
 <noscript><style>.rv,.rv-l{opacity:1!important;transform:none!important}</style></noscript>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"TravelAgency","@id":"https://eliteescapetourism.com/#agency","name":"Elite Escape Tourism LLC","url":"https://eliteescapetourism.com/","telephone":"+971555753133","email":"info@eliteescapetourism.com","address":{"@type":"PostalAddress","streetAddress":"City Gate Building, Hashtag Business Center, M Floor, Office 16","addressLocality":"Dubai","addressCountry":"AE"},"openingHours":"Mo-Fr 09:00-17:00","sameAs":["https://www.instagram.com/eliteescapetourism/","https://www.facebook.com/eliteescapetourism/","https://x.com/EliteEscapeTour"],"priceRange":"AED 99 - AED 6,900"}
@@ -36,23 +36,24 @@
 </script>
 </head>
 <body class="grain">
+<div class="scroll-bar" id="scrollBar"></div>
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="site-head" id="head">
   <div class="wrap bar">
-    <a class="brand" href="/" aria-label="Elite Escape Tourism — home">
-      <img src="/assets/brand/logo-header.svg" alt="Elite Escape Tourism LLC logo" width="252" height="84" fetchpriority="high">
+    <a class="brand" href="/elite-escape-tourism/" aria-label="Elite Escape Tourism — home">
+      <img src="/elite-escape-tourism/assets/brand/logo-header.svg" alt="Elite Escape Tourism LLC logo" width="252" height="84" fetchpriority="high">
     </a>
     <nav class="nav" id="nav" aria-label="Primary">
       <button class="nav-close" aria-label="Close menu">✕</button>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/holidays.html">Holidays</a>
-      <a href="/visa.html">Visas</a>
-      <a href="/attractions.html">UAE Icons</a>
-      <a href="/seasonal.html">Seasons</a>
-      <a href="/blog/">Journal</a>
-      <a href="/about.html">Maison</a>
-      <a href="/contact.html">Contact</a>
+      <a href="/elite-escape-tourism/" aria-current="page">Home</a>
+      <a href="/elite-escape-tourism/holidays.html">Holidays</a>
+      <a href="/elite-escape-tourism/visa.html">Visas</a>
+      <a href="/elite-escape-tourism/attractions.html">UAE Icons</a>
+      <a href="/elite-escape-tourism/seasonal.html">Seasons</a>
+      <a href="/elite-escape-tourism/blog/">Journal</a>
+      <a href="/elite-escape-tourism/about.html">Maison</a>
+      <a href="/elite-escape-tourism/contact.html">Contact</a>
     </nav>
     <div class="head-cta">
       <a class="tel" href="tel:+971555753133">+971 55 575 3133</a>
@@ -67,22 +68,24 @@
 <section class="hero" id="heroSlider" aria-roledescription="carousel" aria-label="Featured destinations" style="background:var(--navy-deep)">
   <div class="hero-slides">
     <div class="hero-slide on" role="group" aria-roledescription="slide" aria-label="1 of 3">
-      <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=400&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800&auto=format&fit=crop 800w" sizes="100vw" alt="Dubai Marina skyline glowing at dusk" width="800" height="480" decoding="async">
+      <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1400&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800&auto=format&fit=crop 800w, https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1400&auto=format&fit=crop 1400w, https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1800&auto=format&fit=crop 1800w" sizes="100vw" alt="Dubai Marina skyline glowing at dusk" width="1800" height="1000" fetchpriority="high" decoding="async">
     </div>
     <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 3">
-      <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=800&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=400&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=800&auto=format&fit=crop 800w" sizes="100vw" alt="Camel caravan crossing golden desert dunes at sunset" loading="lazy" width="800" height="480" decoding="async">
+      <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=1400&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=800&auto=format&fit=crop 800w, https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=1400&auto=format&fit=crop 1400w, https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=1800&auto=format&fit=crop 1800w" sizes="100vw" alt="Camel caravan crossing golden desert dunes at sunset" loading="lazy" width="1800" height="1000" decoding="async">
     </div>
     <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="3 of 3">
-      <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=800&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=400&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=800&auto=format&fit=crop 800w" sizes="100vw" alt="Turquoise Maldivian atoll from above" loading="lazy" width="800" height="480" decoding="async">
+      <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=1400&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=800&auto=format&fit=crop 800w, https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=1400&auto=format&fit=crop 1400w, https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=1800&auto=format&fit=crop 1800w" sizes="100vw" alt="Turquoise Maldivian atoll from above" loading="lazy" width="1800" height="1000" decoding="async">
     </div>
   </div>
+  <div class="hero-glow"></div>
+  <div class="hero-float" aria-hidden="true"><div><b>24</b><span>Itineraries</span></div><div><b>49</b><span>Visa desks</span></div></div>
   <div class="wrap hero-inner">
     <p class="hero-kicker"><i></i>Dubai · Boutique travel house</p>
-    <h1>Fly further. <span class="hl">Feel everything.</span></h1>
+    <h1><span class="hw-mask"><span class="hw">Fly further.</span></span><span class="hw-mask"><span class="hw hl">Feel everything.</span></span></h1>
     <p class="hero-sub">Japan's neon temples, Georgia's high Caucasus, Bali's slow tide, Paris at golden hour — plus every visa stamp and desert sunset in between. One team, one WhatsApp thread, zero guesswork.</p>
     <div class="hero-actions">
-      <a class="btn btn-primary" href="/holidays.html">Explore 24 holidays <span class="arr">→</span></a>
-      <a class="btn btn-glass" href="/visa.html">Check my visa <span class="arr">→</span></a>
+      <a class="btn btn-primary" href="/elite-escape-tourism/holidays.html">Explore 24 holidays <span class="arr">→</span></a>
+      <a class="btn btn-glass" href="/elite-escape-tourism/visa.html">Check my visa <span class="arr">→</span></a>
     </div>
     <div class="hero-proof"><span><b>24</b> hand-walked itineraries</span><span><b>49</b> visa desks</span><span><b>14</b> UAE icons, daily</span></div>
   </div>
@@ -99,6 +102,23 @@
 <span><i>✦</i> Japan from AED 4,000</span><span><i>✦</i> Georgia–Armenia from AED 2,000</span><span><i>✦</i> Bali from AED 1,299</span><span><i>✦</i> Schengen &amp; UK visa desks</span><span><i>✦</i> Desert safari, daily pickup</span><span><i>✦</i> WhatsApp concierge, 7 days</span>
 <span><i>✦</i> Japan from AED 4,000</span><span><i>✦</i> Georgia–Armenia from AED 2,000</span><span><i>✦</i> Bali from AED 1,299</span><span><i>✦</i> Schengen &amp; UK visa desks</span><span><i>✦</i> Desert safari, daily pickup</span><span><i>✦</i> WhatsApp concierge, 7 days</span>
 </div></div>
+<div class="marquee alt" aria-hidden="true"><div class="marquee-track rev">
+<span><i>✦</i> Tokyo · Kyoto · Osaka</span><span><i>✦</i> Tbilisi · Kazbegi · Yerevan</span><span><i>✦</i> Uluwatu · Ubud · Nusa Penida</span><span><i>✦</i> Paris · London · Edinburgh</span><span><i>✦</i> Burj Khalifa · Museum of the Future</span><span><i>✦</i> 49 visa desks, worldwide</span>
+<span><i>✦</i> Tokyo · Kyoto · Osaka</span><span><i>✦</i> Tbilisi · Kazbegi · Yerevan</span><span><i>✦</i> Uluwatu · Ubud · Nusa Penida</span><span><i>✦</i> Paris · London · Edinburgh</span><span><i>✦</i> Burj Khalifa · Museum of the Future</span><span><i>✦</i> 49 visa desks, worldwide</span>
+</div></div>
+
+<!-- HOW IT WORKS -->
+<section class="sec" style="padding-bottom:0" aria-labelledby="how">
+  <div class="wrap">
+    <p class="eyebrow rv">How it works</p>
+    <h2 id="how" class="rv">Three messages <span class="hl">to lift-off.</span></h2>
+    <div class="steps">
+      <div class="step rv"><span class="step-n">1</span><h3>Tell us your dream</h3><p>Dates, travellers, budget — one WhatsApp message is enough to start.</p></div>
+      <div class="step rv" style="--d:120ms"><span class="step-n">2</span><h3>Get a fixed quote</h3><p>Hotels, flights, transfers and visa priced in writing. No asterisks, no surprises.</p></div>
+      <div class="step rv" style="--d:240ms"><span class="step-n">3</span><h3>Fly, backed 24/7</h3><p>We ticket everything. If a flight shifts at 2am, our night desk rebooks while you sleep.</p></div>
+    </div>
+  </div>
+</section>
 
 <!-- TRUST + STATS -->
 <section class="sec" aria-label="Why Elite Escape" style="padding-bottom:0">
@@ -126,18 +146,18 @@
     <div class="sec-head">
       <div><p class="eyebrow rv">Signature holidays</p>
       <h2 id="trips" class="rv">Six routes we <span class="hl">obsess</span> over.</h2></div>
-      <a class="btn btn-outline rv" href="/holidays.html">All 24 tours <span class="arr">→</span></a>
+      <a class="btn btn-outline rv" href="/elite-escape-tourism/holidays.html">All 24 tours <span class="arr">→</span></a>
     </div>
     <div class="cards">
-      <a class="card-trip rv" href="/tours/japan-7-day-essential.html">
+      <a class="card-trip rv" href="/elite-escape-tourism/tours/japan-7-day-essential.html">
         <span class="ph"><img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=900&auto=format&fit=crop" alt="Vermilion torii gates tunnel at Fushimi Inari, Kyoto" loading="lazy" width="900" height="765"><span class="dur">7 days · 6 nights</span><span class="price-tab"><s>AED 5,000</s>AED 4,000</span></span>
         <span class="bd"><h3>Japan, essential</h3><p>Tokyo → Fuji → Kyoto → Nara → Osaka. Bullet trains, tea house, onsen option.</p><span class="go">View itinerary →</span></span>
       </a>
-      <a class="card-trip rv" style="--d:90ms" href="/tours/georgia-armenia-7-day.html">
+      <a class="card-trip rv" style="--d:90ms" href="/elite-escape-tourism/tours/georgia-armenia-7-day.html">
         <span class="ph"><img src="https://images.unsplash.com/photo-1563746098251-d35aef196e83?q=80&w=900&auto=format&fit=crop" alt="Stone church beneath high Caucasus peaks" loading="lazy" width="900" height="765"><span class="dur">7 days · 6 nights</span><span class="price-tab"><s>AED 2,500</s>AED 2,000</span></span>
         <span class="bd"><h3>Georgia &amp; Armenia</h3><p>Tbilisi old town, Kazbegi, Yerevan, Sevan. Our best value escape from Dubai.</p><span class="go">View itinerary →</span></span>
       </a>
-      <a class="card-trip rv" style="--d:180ms" href="/tours/bali-5-day.html">
+      <a class="card-trip rv" style="--d:180ms" href="/elite-escape-tourism/tours/bali-5-day.html">
         <span class="ph"><img src="https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=900&auto=format&fit=crop" alt="Temple gate framing a volcano sunrise in Bali" loading="lazy" width="900" height="765"><span class="dur">5 days · 4 nights</span><span class="price-tab"><s>AED 1,800</s>AED 1,299</span></span>
         <span class="bd"><h3>Bali, slow tide</h3><p>Uluwatu, Ubud swing, Nusa Penida day sail. Honeymoon-ready.</p><span class="go">View itinerary →</span></span>
       </a>
@@ -151,11 +171,11 @@
     <p class="eyebrow rv">Destinations</p>
     <h2 id="dest" class="rv">Eighteen worlds, <span class="hl">one departure city.</span></h2>
     <div class="dest-grid">
-      <a class="dest rv" href="/destinations/japan.html"><img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=1200&auto=format&fit=crop" alt="Spring colours in Japan" loading="lazy" width="1200" height="1400"><figcaption><b>Japan</b><span>2 tours →</span></figcaption></a>
-      <a class="dest rv" style="--d:80ms" href="/destinations/france.html"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=800&auto=format&fit=crop" alt="Eiffel Tower over Paris rooftops" loading="lazy" width="800" height="520"><figcaption><b>France</b><span>2 tours →</span></figcaption></a>
-      <a class="dest rv" style="--d:140ms" href="/destinations/georgia.html"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop" alt="Snow-capped Caucasus-style peaks above the valley" loading="lazy" width="800" height="520"><figcaption><b>Georgia</b><span>2 tours →</span></figcaption></a>
-      <a class="dest rv" href="/destinations/bali.html"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=800&auto=format&fit=crop" alt="Cliff temple over the ocean in Bali" loading="lazy" width="800" height="520"><figcaption><b>Bali</b><span>2 tours →</span></figcaption></a>
-      <a class="dest rv" style="--d:80ms" href="/destinations/uk.html"><img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=800&auto=format&fit=crop" alt="Tower Bridge in London at blue hour" loading="lazy" width="800" height="520"><figcaption><b>Britain</b><span>2 tours →</span></figcaption></a>
+      <a class="dest rv" href="/elite-escape-tourism/destinations/japan.html"><img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=1200&auto=format&fit=crop" alt="Spring colours in Japan" loading="lazy" width="1200" height="1400"><figcaption><b>Japan</b><span>2 tours →</span></figcaption></a>
+      <a class="dest rv" style="--d:80ms" href="/elite-escape-tourism/destinations/france.html"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=800&auto=format&fit=crop" alt="Eiffel Tower over Paris rooftops" loading="lazy" width="800" height="520"><figcaption><b>France</b><span>2 tours →</span></figcaption></a>
+      <a class="dest rv" style="--d:140ms" href="/elite-escape-tourism/destinations/georgia.html"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop" alt="Snow-capped Caucasus-style peaks above the valley" loading="lazy" width="800" height="520"><figcaption><b>Georgia</b><span>2 tours →</span></figcaption></a>
+      <a class="dest rv" href="/elite-escape-tourism/destinations/bali.html"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=800&auto=format&fit=crop" alt="Cliff temple over the ocean in Bali" loading="lazy" width="800" height="520"><figcaption><b>Bali</b><span>2 tours →</span></figcaption></a>
+      <a class="dest rv" style="--d:80ms" href="/elite-escape-tourism/destinations/uk.html"><img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=800&auto=format&fit=crop" alt="Tower Bridge in London at blue hour" loading="lazy" width="800" height="520"><figcaption><b>Britain</b><span>2 tours →</span></figcaption></a>
     </div>
   </div>
 </section>
@@ -167,14 +187,14 @@
     <h2 id="visa" class="rv">49 countries. <span class="hl">Zero guesswork.</span></h2>
     <p class="lede rv">Checklist, appointment, file review, tracking — one specialist owns your case on WhatsApp.</p>
     <div class="visa-grid" style="margin-top:26px">
-      <a class="visa rv" href="/visa/usa-from-uae.html"><span class="flag"><svg viewBox="0 0 60 40" role="img" aria-label="Flag of Usa"><defs><clipPath id="fc-us-usa"><rect width="60" height="40" rx="5"/></clipPath></defs><g clip-path="url(#fc-us-usa)"><rect width="60" height="3.1" y="0.0" fill="#B31942"/><rect width="60" height="3.1" y="3.1" fill="#fff"/><rect width="60" height="3.1" y="6.2" fill="#B31942"/><rect width="60" height="3.1" y="9.2" fill="#fff"/><rect width="60" height="3.1" y="12.3" fill="#B31942"/><rect width="60" height="3.1" y="15.4" fill="#fff"/><rect width="60" height="3.1" y="18.5" fill="#B31942"/><rect width="60" height="3.1" y="21.6" fill="#fff"/><rect width="60" height="3.1" y="24.6" fill="#B31942"/><rect width="60" height="3.1" y="27.7" fill="#fff"/><rect width="60" height="3.1" y="30.8" fill="#B31942"/><rect width="60" height="3.1" y="33.9" fill="#fff"/><rect width="60" height="3.1" y="37.0" fill="#B31942"/><rect width="26" height="21.5" fill="#0A3161"/><circle cx="3" cy="3.4" r="1.1" fill="#fff"/><circle cx="7.4" cy="3.4" r="1.1" fill="#fff"/><circle cx="11.8" cy="3.4" r="1.1" fill="#fff"/><circle cx="16.200000000000003" cy="3.4" r="1.1" fill="#fff"/><circle cx="20.6" cy="3.4" r="1.1" fill="#fff"/><circle cx="3" cy="7.800000000000001" r="1.1" fill="#fff"/><circle cx="7.4" cy="7.800000000000001" r="1.1" fill="#fff"/><circle cx="11.8" cy="7.800000000000001" r="1.1" fill="#fff"/><circle cx="16.200000000000003" cy="7.800000000000001" r="1.1" fill="#fff"/><circle cx="20.6" cy="7.800000000000001" r="1.1" fill="#fff"/><circle cx="3" cy="12.200000000000001" r="1.1" fill="#fff"/><circle cx="7.4" cy="12.200000000000001" r="1.1" fill="#fff"/><circle cx="11.8" cy="12.200000000000001" r="1.1" fill="#fff"/><circle cx="16.200000000000003" cy="12.200000000000001" r="1.1" fill="#fff"/><circle cx="20.6" cy="12.200000000000001" r="1.1" fill="#fff"/><circle cx="3" cy="16.6" r="1.1" fill="#fff"/><circle cx="7.4" cy="16.6" r="1.1" fill="#fff"/><circle cx="11.8" cy="16.6" r="1.1" fill="#fff"/><circle cx="16.200000000000003" cy="16.6" r="1.1" fill="#fff"/><circle cx="20.6" cy="16.6" r="1.1" fill="#fff"/><rect width="60" height="40" fill="none" stroke="rgba(19,26,66,.18)" stroke-width="1"/></g></svg></span><b>USA</b><small>Interview prep</small></a>
-      <a class="visa rv" style="--d:60ms" href="/visa/uk-from-uae.html"><span class="flag"><svg viewBox="0 0 60 40" role="img" aria-label="Flag of Uk"><defs><clipPath id="fc-gb-uk"><rect width="60" height="40" rx="5"/></clipPath></defs><g clip-path="url(#fc-gb-uk)"><rect width="60" height="40" fill="#012169"/><path d="M0 0 L60 40 M60 0 L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0 L60 40 M60 0 L0 40" stroke="#C8102E" stroke-width="2.6"/><rect x="24" width="12" height="40" fill="#fff"/><rect y="14" width="60" height="12" fill="#fff"/><rect x="26.5" width="7" height="40" fill="#C8102E"/><rect y="16.5" width="60" height="7" fill="#C8102E"/><rect width="60" height="40" fill="none" stroke="rgba(19,26,66,.18)" stroke-width="1"/></g></svg></span><b>United Kingdom</b><small>2–4 weeks</small></a>
-      <a class="visa rv" style="--d:120ms" href="/visa/canada-from-uae.html"><span class="flag"><svg viewBox="0 0 60 40" role="img" aria-label="Flag of Canada"><defs><clipPath id="fc-ca-canada"><rect width="60" height="40" rx="5"/></clipPath></defs><g clip-path="url(#fc-ca-canada)"><rect width="15" height="40" fill="#FF0000"/><rect x="15" width="30" height="40" fill="#fff"/><rect x="45" width="15" height="40" fill="#FF0000"/><polygon points="30,7 31.5,11 34,10 33,13.5 36.5,13 34.5,16 37,18 33.5,18.5 34,23 31,21 31,32 29,32 29,21 26,23 26.5,18.5 23,18 25.5,16 23.5,13 27,13.5 26,10 28.5,11" fill="#FF0000"/><rect x="29.2" y="31" width="1.6" height="3.5" fill="#FF0000"/><rect width="60" height="40" fill="none" stroke="rgba(19,26,66,.18)" stroke-width="1"/></g></svg></span><b>Canada</b><small>Biometrics</small></a>
-      <a class="visa rv" style="--d:180ms" href="/visa/australia-from-uae.html"><span class="flag"><svg viewBox="0 0 60 40" role="img" aria-label="Flag of Australia"><defs><clipPath id="fc-au-australia"><rect width="60" height="40" rx="5"/></clipPath></defs><g clip-path="url(#fc-au-australia)"><rect width="60" height="40" fill="#00247D"/><g><rect x="0" y="0" width="30" height="20" fill="#012169"/><path d="M0 0 L30 20 M30 0 L0 20" stroke="#fff" stroke-width="4.4"/><rect x="12" y="0" width="6" height="20" fill="#fff"/><rect x="0" y="8" width="30" height="4" fill="#fff"/><rect x="13.2" y="0" width="3.5999999999999996" height="20" fill="#C8102E"/><rect x="0" y="8.8" width="30" height="2.4" fill="#C8102E"/></g><polygon points="15.0,26.0 15.7,28.5 18.1,27.5 16.6,29.6 18.9,30.9 16.3,31.0 16.7,33.6 15.0,31.7 13.3,33.6 13.7,31.0 11.1,30.9 13.4,29.6 11.9,27.5 14.3,28.5" fill="#fff"/><polygon points="45.0,5.6 45.4,7.1 46.9,6.5 46.0,7.8 47.3,8.5 45.8,8.6 46.0,10.2 45.0,9.0 44.0,10.2 44.2,8.6 42.7,8.5 44.0,7.8 43.1,6.5 44.6,7.1" fill="#fff"/><polygon points="45.0,17.6 45.4,19.1 46.9,18.5 46.0,19.8 47.3,20.5 45.8,20.6 46.0,22.2 45.0,21.0 44.0,22.2 44.2,20.6 42.7,20.5 44.0,19.8 43.1,18.5 44.6,19.1" fill="#fff"/><polygon points="45.0,29.6 45.4,31.1 46.9,30.5 46.0,31.8 47.3,32.5 45.8,32.6 46.0,34.2 45.0,33.0 44.0,34.2 44.2,32.6 42.7,32.5 44.0,31.8 43.1,30.5 44.6,31.1" fill="#fff"/><polygon points="38.0,11.6 38.4,13.1 39.9,12.5 39.0,13.8 40.3,14.5 38.8,14.6 39.0,16.2 38.0,15.0 37.0,16.2 37.2,14.6 35.7,14.5 37.0,13.8 36.1,12.5 37.6,13.1" fill="#fff"/><polygon points="52.0,23.6 52.4,25.1 53.9,24.5 53.0,25.8 54.3,26.5 52.8,26.6 53.0,28.2 52.0,27.0 51.0,28.2 51.2,26.6 49.7,26.5 51.0,25.8 50.1,24.5 51.6,25.1" fill="#fff"/><rect width="60" height="40" fill="none" stroke="rgba(19,26,66,.18)" stroke-width="1"/></g></svg></span><b>Australia</b><small>Online file</small></a>
-      <a class="visa rv" style="--d:240ms" href="/visa/schengen-france-from-uae.html"><span class="flag"><svg viewBox="0 0 60 40" role="img" aria-label="Flag of Schengen France"><defs><clipPath id="fc-fr-schengenfrance"><rect width="60" height="40" rx="5"/></clipPath></defs><g clip-path="url(#fc-fr-schengenfrance)"><rect width="20" height="40" x="0" fill="#0055A4"/><rect width="20" height="40" x="20" fill="#fff"/><rect width="20" height="40" x="40" fill="#EF4135"/><rect width="60" height="40" fill="none" stroke="rgba(19,26,66,.18)" stroke-width="1"/></g></svg></span><b>Schengen · France</b><small>2–4 weeks</small></a>
+      <a class="visa rv" href="/elite-escape-tourism/visa/usa-from-uae.html"><span class="flag"><svg viewBox="0 0 60 40" role="img" aria-label="Flag of Usa"><defs><clipPath id="fc-us-usa"><rect width="60" height="40" rx="5"/></clipPath></defs><g clip-path="url(#fc-us-usa)"><rect width="60" height="3.1" y="0.0" fill="#B31942"/><rect width="60" height="3.1" y="3.1" fill="#fff"/><rect width="60" height="3.1" y="6.2" fill="#B31942"/><rect width="60" height="3.1" y="9.2" fill="#fff"/><rect width="60" height="3.1" y="12.3" fill="#B31942"/><rect width="60" height="3.1" y="15.4" fill="#fff"/><rect width="60" height="3.1" y="18.5" fill="#B31942"/><rect width="60" height="3.1" y="21.6" fill="#fff"/><rect width="60" height="3.1" y="24.6" fill="#B31942"/><rect width="60" height="3.1" y="27.7" fill="#fff"/><rect width="60" height="3.1" y="30.8" fill="#B31942"/><rect width="60" height="3.1" y="33.9" fill="#fff"/><rect width="60" height="3.1" y="37.0" fill="#B31942"/><rect width="26" height="21.5" fill="#0A3161"/><circle cx="3" cy="3.4" r="1.1" fill="#fff"/><circle cx="7.4" cy="3.4" r="1.1" fill="#fff"/><circle cx="11.8" cy="3.4" r="1.1" fill="#fff"/><circle cx="16.200000000000003" cy="3.4" r="1.1" fill="#fff"/><circle cx="20.6" cy="3.4" r="1.1" fill="#fff"/><circle cx="3" cy="7.800000000000001" r="1.1" fill="#fff"/><circle cx="7.4" cy="7.800000000000001" r="1.1" fill="#fff"/><circle cx="11.8" cy="7.800000000000001" r="1.1" fill="#fff"/><circle cx="16.200000000000003" cy="7.800000000000001" r="1.1" fill="#fff"/><circle cx="20.6" cy="7.800000000000001" r="1.1" fill="#fff"/><circle cx="3" cy="12.200000000000001" r="1.1" fill="#fff"/><circle cx="7.4" cy="12.200000000000001" r="1.1" fill="#fff"/><circle cx="11.8" cy="12.200000000000001" r="1.1" fill="#fff"/><circle cx="16.200000000000003" cy="12.200000000000001" r="1.1" fill="#fff"/><circle cx="20.6" cy="12.200000000000001" r="1.1" fill="#fff"/><circle cx="3" cy="16.6" r="1.1" fill="#fff"/><circle cx="7.4" cy="16.6" r="1.1" fill="#fff"/><circle cx="11.8" cy="16.6" r="1.1" fill="#fff"/><circle cx="16.200000000000003" cy="16.6" r="1.1" fill="#fff"/><circle cx="20.6" cy="16.6" r="1.1" fill="#fff"/><rect width="60" height="40" fill="none" stroke="rgba(19,26,66,.18)" stroke-width="1"/></g></svg></span><b>USA</b><small>Interview prep</small></a>
+      <a class="visa rv" style="--d:60ms" href="/elite-escape-tourism/visa/uk-from-uae.html"><span class="flag"><svg viewBox="0 0 60 40" role="img" aria-label="Flag of Uk"><defs><clipPath id="fc-gb-uk"><rect width="60" height="40" rx="5"/></clipPath></defs><g clip-path="url(#fc-gb-uk)"><rect width="60" height="40" fill="#012169"/><path d="M0 0 L60 40 M60 0 L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0 L60 40 M60 0 L0 40" stroke="#C8102E" stroke-width="2.6"/><rect x="24" width="12" height="40" fill="#fff"/><rect y="14" width="60" height="12" fill="#fff"/><rect x="26.5" width="7" height="40" fill="#C8102E"/><rect y="16.5" width="60" height="7" fill="#C8102E"/><rect width="60" height="40" fill="none" stroke="rgba(19,26,66,.18)" stroke-width="1"/></g></svg></span><b>United Kingdom</b><small>2–4 weeks</small></a>
+      <a class="visa rv" style="--d:120ms" href="/elite-escape-tourism/visa/canada-from-uae.html"><span class="flag"><svg viewBox="0 0 60 40" role="img" aria-label="Flag of Canada"><defs><clipPath id="fc-ca-canada"><rect width="60" height="40" rx="5"/></clipPath></defs><g clip-path="url(#fc-ca-canada)"><rect width="15" height="40" fill="#FF0000"/><rect x="15" width="30" height="40" fill="#fff"/><rect x="45" width="15" height="40" fill="#FF0000"/><polygon points="30,7 31.5,11 34,10 33,13.5 36.5,13 34.5,16 37,18 33.5,18.5 34,23 31,21 31,32 29,32 29,21 26,23 26.5,18.5 23,18 25.5,16 23.5,13 27,13.5 26,10 28.5,11" fill="#FF0000"/><rect x="29.2" y="31" width="1.6" height="3.5" fill="#FF0000"/><rect width="60" height="40" fill="none" stroke="rgba(19,26,66,.18)" stroke-width="1"/></g></svg></span><b>Canada</b><small>Biometrics</small></a>
+      <a class="visa rv" style="--d:180ms" href="/elite-escape-tourism/visa/australia-from-uae.html"><span class="flag"><svg viewBox="0 0 60 40" role="img" aria-label="Flag of Australia"><defs><clipPath id="fc-au-australia"><rect width="60" height="40" rx="5"/></clipPath></defs><g clip-path="url(#fc-au-australia)"><rect width="60" height="40" fill="#00247D"/><g><rect x="0" y="0" width="30" height="20" fill="#012169"/><path d="M0 0 L30 20 M30 0 L0 20" stroke="#fff" stroke-width="4.4"/><rect x="12" y="0" width="6" height="20" fill="#fff"/><rect x="0" y="8" width="30" height="4" fill="#fff"/><rect x="13.2" y="0" width="3.5999999999999996" height="20" fill="#C8102E"/><rect x="0" y="8.8" width="30" height="2.4" fill="#C8102E"/></g><polygon points="15.0,26.0 15.7,28.5 18.1,27.5 16.6,29.6 18.9,30.9 16.3,31.0 16.7,33.6 15.0,31.7 13.3,33.6 13.7,31.0 11.1,30.9 13.4,29.6 11.9,27.5 14.3,28.5" fill="#fff"/><polygon points="45.0,5.6 45.4,7.1 46.9,6.5 46.0,7.8 47.3,8.5 45.8,8.6 46.0,10.2 45.0,9.0 44.0,10.2 44.2,8.6 42.7,8.5 44.0,7.8 43.1,6.5 44.6,7.1" fill="#fff"/><polygon points="45.0,17.6 45.4,19.1 46.9,18.5 46.0,19.8 47.3,20.5 45.8,20.6 46.0,22.2 45.0,21.0 44.0,22.2 44.2,20.6 42.7,20.5 44.0,19.8 43.1,18.5 44.6,19.1" fill="#fff"/><polygon points="45.0,29.6 45.4,31.1 46.9,30.5 46.0,31.8 47.3,32.5 45.8,32.6 46.0,34.2 45.0,33.0 44.0,34.2 44.2,32.6 42.7,32.5 44.0,31.8 43.1,30.5 44.6,31.1" fill="#fff"/><polygon points="38.0,11.6 38.4,13.1 39.9,12.5 39.0,13.8 40.3,14.5 38.8,14.6 39.0,16.2 38.0,15.0 37.0,16.2 37.2,14.6 35.7,14.5 37.0,13.8 36.1,12.5 37.6,13.1" fill="#fff"/><polygon points="52.0,23.6 52.4,25.1 53.9,24.5 53.0,25.8 54.3,26.5 52.8,26.6 53.0,28.2 52.0,27.0 51.0,28.2 51.2,26.6 49.7,26.5 51.0,25.8 50.1,24.5 51.6,25.1" fill="#fff"/><rect width="60" height="40" fill="none" stroke="rgba(19,26,66,.18)" stroke-width="1"/></g></svg></span><b>Australia</b><small>Online file</small></a>
+      <a class="visa rv" style="--d:240ms" href="/elite-escape-tourism/visa/schengen-france-from-uae.html"><span class="flag"><svg viewBox="0 0 60 40" role="img" aria-label="Flag of Schengen France"><defs><clipPath id="fc-fr-schengenfrance"><rect width="60" height="40" rx="5"/></clipPath></defs><g clip-path="url(#fc-fr-schengenfrance)"><rect width="20" height="40" x="0" fill="#0055A4"/><rect width="20" height="40" x="20" fill="#fff"/><rect width="20" height="40" x="40" fill="#EF4135"/><rect width="60" height="40" fill="none" stroke="rgba(19,26,66,.18)" stroke-width="1"/></g></svg></span><b>Schengen · France</b><small>2–4 weeks</small></a>
     </div>
     <p class="rv" style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap">
-      <a class="btn btn-white" href="/visa.html">All 49 visa desks <span class="arr">→</span></a>
+      <a class="btn btn-white" href="/elite-escape-tourism/visa.html">All 49 visa desks <span class="arr">→</span></a>
       <a class="btn btn-glass" href="https://wa.me/971555753133?text=Visa%20help" target="_blank" rel="noopener">Ask a specialist <span class="arr">→</span></a>
     </p>
   </div>
@@ -189,7 +209,7 @@
         <p class="eyebrow" style="color:#9BDCF5">UAE icons</p>
         <h2>The desert is the <span class="hl">original cinema.</span></h2>
         <p>Dune bashing, Bedouin camp, Tanoura under stars. Plus Burj Khalifa, Museum of the Future, Louvre Abu Dhabi, Marina dhow. Hotel pickup, always.</p>
-        <p style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-primary" href="/attractions/desert-safari.html">Book desert safari <span class="arr">→</span></a><a class="btn btn-glass" href="/attractions.html">All 14 icons <span class="arr">→</span></a></p>
+        <p style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-primary" href="/elite-escape-tourism/attractions/desert-safari.html">Book desert safari <span class="arr">→</span></a><a class="btn btn-glass" href="/elite-escape-tourism/attractions.html">All 14 icons <span class="arr">→</span></a></p>
       </div>
     </div>
   </div>
@@ -215,18 +235,18 @@
     <div class="sec-head">
       <div><p class="eyebrow rv">The journal · 400+ guides since 2016</p>
       <h2 id="journal" class="rv">Fresh <span class="hl">intelligence.</span></h2></div>
-      <a class="btn btn-outline rv" href="/blog/">All articles <span class="arr">→</span></a>
+      <a class="btn btn-outline rv" href="/elite-escape-tourism/blog/">All articles <span class="arr">→</span></a>
     </div>
     <div class="cards">
-      <a class="card-trip rv" href="/blog/usa-visa-interview-dubai-wait-times-2026.html">
+      <a class="card-trip rv" href="/elite-escape-tourism/blog/usa-visa-interview-dubai-wait-times-2026.html">
         <span class="ph"><img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=800&auto=format&fit=crop" alt="Golden Gate bridge, USA" loading="lazy" width="800" height="680"><span class="dur">Visa · Sep 2026</span><span class="price-tab">8 min read</span></span>
         <span class="bd"><h3>USA visa from Dubai in 2026: interview waits, fees &amp; how to prepare</h3><p>Current queues, DS-160 mistakes that cost months, and the file order officers like.</p><span class="go">Read guide →</span></span>
       </a>
-      <a class="card-trip rv" style="--d:90ms" href="/blog/japan-cherry-blossom-forecast-2027.html">
+      <a class="card-trip rv" style="--d:90ms" href="/elite-escape-tourism/blog/japan-cherry-blossom-forecast-2027.html">
         <span class="ph"><img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=800&auto=format&fit=crop" alt="Pagoda and Mount Fuji in spring light" loading="lazy" width="800" height="680"><span class="dur">Holidays · Aug 2026</span><span class="price-tab">6 min read</span></span>
         <span class="bd"><h3>Japan cherry blossom 2027: when to book from Dubai</h3><p>Bloom windows, fare curves, and why sakura-week hotels sell out by October.</p><span class="go">Read guide →</span></span>
       </a>
-      <a class="card-trip rv" style="--d:180ms" href="/blog/schengen-visa-appointment-dubai-2026.html">
+      <a class="card-trip rv" style="--d:180ms" href="/elite-escape-tourism/blog/schengen-visa-appointment-dubai-2026.html">
         <span class="ph"><img src="https://images.unsplash.com/photo-1431274172761-fca41d930114?q=80&w=800&auto=format&fit=crop" alt="Eiffel Tower from a Parisian street" loading="lazy" width="800" height="680"><span class="dur">Visa · Aug 2026</span><span class="price-tab">7 min read</span></span>
         <span class="bd"><h3>Schengen slots in Dubai right now: how far ahead to book</h3><p>Which consulates release when, the 15-day rule, and peak-season strategy.</p><span class="go">Read guide →</span></span>
       </a>
@@ -282,22 +302,22 @@
     </div>
     <div class="foot-grid">
       <div>
-        <img src="/assets/brand/logo-footer.svg" class="foot-logo" alt="Elite Escape Tourism LLC logo" width="200" height="67" loading="lazy">
+        <img src="/elite-escape-tourism/assets/brand/logo-footer.svg" class="foot-logo" alt="Elite Escape Tourism LLC logo" width="200" height="67" loading="lazy">
         <p style="max-width:38ch">Dubai's boutique travel house — holidays, worldwide visas and UAE icons, handled by one specialist per trip.</p>
         <p><a href="tel:+971555753133">+971 55 575 3133</a> · <a href="mailto:info@eliteescapetourism.com">info@eliteescapetourism.com</a><br>City Gate Building, Hashtag Business Center, M Floor, Office 16, Dubai, UAE<br><span class="muted">Mon–Fri 9:00–17:00 · WhatsApp 7 days</span></p>
       </div>
       <nav aria-label="Explore"><h2 class="fhead">Explore</h2><ul>
-        <li><a href="/holidays.html">Holidays</a></li><li><a href="/visa.html">Visa assistance</a></li><li><a href="/attractions.html">UAE attractions</a></li>        <li><a href="/seasonal.html">Seasonal tours</a></li><li><a href="/guides/">Travel guides</a></li><li><a href="/blog/">Journal</a></li><li><a href="/search/">Search</a></li>
+        <li><a href="/elite-escape-tourism/holidays.html">Holidays</a></li><li><a href="/elite-escape-tourism/visa.html">Visa assistance</a></li><li><a href="/elite-escape-tourism/attractions.html">UAE attractions</a></li>        <li><a href="/elite-escape-tourism/seasonal.html">Seasonal tours</a></li><li><a href="/elite-escape-tourism/guides/">Travel guides</a></li><li><a href="/elite-escape-tourism/blog/">Journal</a></li><li><a href="/elite-escape-tourism/search/">Search</a></li>
       </ul></nav>
       <nav aria-label="Top routes"><h2 class="fhead">Top routes</h2><ul>
-        <li><a href="/tours/japan-7-day-essential.html">Japan 7-day</a></li><li><a href="/tours/georgia-armenia-7-day.html">Georgia &amp; Armenia</a></li><li><a href="/tours/bali-5-day.html">Bali 5-day</a></li><li><a href="/visa/usa-from-uae.html">USA visa</a></li><li><a href="/visa/schengen-france-from-uae.html">Schengen visa</a></li>
+        <li><a href="/elite-escape-tourism/tours/japan-7-day-essential.html">Japan 7-day</a></li><li><a href="/elite-escape-tourism/tours/georgia-armenia-7-day.html">Georgia &amp; Armenia</a></li><li><a href="/elite-escape-tourism/tours/bali-5-day.html">Bali 5-day</a></li><li><a href="/elite-escape-tourism/visa/usa-from-uae.html">USA visa</a></li><li><a href="/elite-escape-tourism/visa/schengen-france-from-uae.html">Schengen visa</a></li>
       </ul></nav>
       <nav aria-label="Maison"><h2 class="fhead">Maison</h2><ul>
-        <li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li><li><a href="https://www.instagram.com/eliteescapetourism/" rel="noopener" target="_blank">Instagram</a></li><li><a href="https://www.facebook.com/eliteescapetourism/" rel="noopener" target="_blank">Facebook</a></li>
+        <li><a href="/elite-escape-tourism/about.html">About</a></li><li><a href="/elite-escape-tourism/contact.html">Contact</a></li><li><a href="https://www.instagram.com/eliteescapetourism/" rel="noopener" target="_blank">Instagram</a></li><li><a href="https://www.facebook.com/eliteescapetourism/" rel="noopener" target="_blank">Facebook</a></li>
       </ul></nav>
     </div>
   </div>
-  <div class="wrap foot-bottom"><span>© <span data-year>2026</span> Elite Escape Tourism LLC. Licensed Dubai travel agency — licence details available at our office and on request.</span><span><a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></span></div>
+  <div class="wrap foot-bottom"><span>© <span data-year>2026</span> Elite Escape Tourism LLC. Licensed Dubai travel agency — licence details available at our office and on request.</span><span><a href="/elite-escape-tourism/privacy.html">Privacy</a> · <a href="/elite-escape-tourism/terms.html">Terms</a></span></div>
 </footer>
 
 <!-- sticky mobile CTA -->
@@ -354,6 +374,6 @@
 </div>
 
 <a class="whats" href="https://wa.me/971555753133?text=Hello%20Elite%20Escape" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.5 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5s.8 1.9.8 2c.1.1.1.3 0 .5-.3.6-.6.8-.4 1.1.7 1.2 1.6 2 2.8 2.6.3.2.5.1.7-.1l.8-.9c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.4 0 .1 0 .7-.6 1.3Z"/></svg></a>
-<script src="/assets/js/main.js" defer></script>
+<script src="/elite-escape-tourism/assets/js/main.js" defer></script>
 </body>
 </html>
