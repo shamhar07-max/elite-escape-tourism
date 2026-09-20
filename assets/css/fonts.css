@@ -7,14 +7,14 @@
   font-style:normal;
   font-weight:400 800;
   font-display:swap;
-  src:url("/elite-escape-tourism/assets/fonts/figtree-variable-latin.woff2") format("woff2-variations"),
-      url("/elite-escape-tourism/assets/fonts/figtree-variable-latin.woff2") format("woff2");
+  src:url("/assets/fonts/figtree-variable-latin.woff2") format("woff2-variations"),
+      url("/assets/fonts/figtree-variable-latin.woff2") format("woff2");
 }
 @font-face{
   font-family:"Fraunces";
   font-style:normal;
   font-weight:600 900;
   font-display:swap;
-  src:url("/elite-escape-tourism/assets/fonts/fraunces-variable-latin.woff2") format("woff2-variations"),
-      url("/elite-escape-tourism/assets/fonts/fraunces-variable-latin.woff2") format("woff2");
+  src:url("/assets/fonts/fraunces-variable-latin.woff2") format("woff2-variations"),
+      url("/assets/fonts/fraunces-variable-latin.woff2") format("woff2");
 }
